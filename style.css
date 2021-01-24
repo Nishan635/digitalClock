@@ -1,0 +1,18 @@
+body {
+	background: black;
+	
+}
+.clock-diplay {
+	font-size: 360%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: -3px 2px 18px 13px #dc9292;
+}
+
+
+
