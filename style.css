@@ -1,7 +1,22 @@
 body {
-	background: black;
+	background-image: 
+	url(https://cdn.pixabay.com/photo/2021/03/03/20/31/theater-6066228_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	padding: 0px;
+	margin: 0px;
 	
 }
+
+h1 {
+	color: white;
+	background-color: rgba(14,15,13,0.4);
+	padding: 10px;
+	font-family: arial;
+	text-align: center;
+	margin: 200px 0px -200px 0px;
+}
+
 .clock-diplay {
 	font-size: 360%;
 	position: absolute;
@@ -13,6 +28,23 @@ body {
 	border-radius: 5px;
 	box-shadow: -3px 2px 18px 13px #dc9292;
 }
+
+@media screen and (max-width: 555px) {
+	.clock-diplay {
+		margin-top: 20px;
+	}
+	body {
+		background-color: black;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.clock-diplay {
+		margin-top: 40px;
+	}
+}
+
+
 
 
 
